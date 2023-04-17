@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil gestion utilisateurs</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/9c602d70e2.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</head>
+<body>
+    <nav class="navigation">
+        <!-- logo -->
+        <div class="logo">
+            <a href="index.html">CS</a>
+        </div>
+        <!-- pages -->
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house-user"></i>
+                </a>
+            </li>
+            <li>
+                <a href="emplois.html">
+                    <i class="fa-solid fa-list"></i>
+                </a>
+            </li>
+            <li>
+                <a href="creer.html">
+                    <i class="fa-solid fa-circle-plus"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- profil -->
+        <a href="">
+            <i class="fa-regular fa-user"></i>
+        </a>
+    </nav>
+    <section class="cards container">
+        <!-- Carte de visite 1 -->
+        <div class="card" onmouseover="changeBackground('profile-1', '#333333')" onmouseout="changeBackground('profile-1', '#942b2b')">
+            <div class="image-wrapper">
+                <img src="img/photo.JPG" class="image" alt="profil yvan" width="100"/>
+            </div>
+                <div class="profile" id="profile-1">
+                    <div class="picture">
+                        <div class="information" id="information-1">
+                            <p>Ingenieur informaticien</p>
+                            <p>KAMDEM TEGUIA G. YVAN</p>
+                            <p class="email">yvankamdem237@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-icons">
+                        <i class="fa-regular fa-envelope"></i>
+                        <i class="fa-solid fa-phone"></i> 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>About us</h3>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis inventore, saepe perferendis cumque dignissimos,
+                        similique provident vel voluptatibus a, unde explicabo ab incidunt harum. Optio, vitae illo? Architecto, inventore.
+                    </div>
+                </div>
+                <div class="company-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div> 
+        <!-- Carte de visite 2 -->
+        <div class="card" onmouseover="changeBackground('profile-2', '#333333')" onmouseout="changeBackground('profile-2', '#942b2b')">
+            <div class="image-wrapper">
+                <img src="img/photo.JPG" class="image" alt="profil yvan" width="100"/>
+            </div>
+                <div class="profile" id="profile-2">
+                    <div class="picture">
+                        <div class="information" id="information-2">
+                            <p onclick="masquerAbout()">Ingenieur informaticien</p>
+                            <p>KAMDEM TEGUIA G. YVAN</p>
+                            <p class="email">yvankamdem237@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-icons">
+                        <i class="fa-regular fa-envelope"></i>
+                        <i class="fa-solid fa-phone"></i> 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="description" id="description">
+                    <h3>About us</h3>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis inventore, saepe perferendis cumque dignissimos,
+                        similique provident vel voluptatibus a, unde explicabo ab incidunt harum. Optio, vitae illo? Architecto, inventore.
+                    </div>
+                </div>
+                <div class="company-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div>
+         <!-- Carte de visite 3 -->
+         <div class="card" onmouseover="changeBackground('profile-3', '#333333')" onmouseout="changeBackground('profile-3', '#942b2b')">
+            <div class="image-wrapper">
+                <img src="img/photo.JPG" class="image" alt="profil yvan" width="100"/>
+            </div>
+                <div class="profile" id="profile-3">
+                    <div class="picture">
+                        <div class="information" id="information-3">
+                            <p>Ingenieur informaticien</p>
+                            <p>KAMDEM TEGUIA G. YVAN</p>
+                            <p class="email">yvankamdem237@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-icons">
+                        <i class="fa-regular fa-envelope"></i>
+                        <i class="fa-solid fa-phone"></i> 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>About us</h3>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis inventore, saepe perferendis cumque dignissimos,
+                        similique provident vel voluptatibus a, unde explicabo ab incidunt harum. Optio, vitae illo? Architecto, inventore.
+                    </div>
+                </div>
+                <div class="company-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div> 
+        <!-- Carte de visite 4 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="img/photo.JPG" class="image" alt="profil yvan" width="100"/>
+            </div>
+                <div class="profile">
+                    <div class="picture">
+                        <div class="information">
+                            <p>Ingenieur informaticien</p>
+                            <p>KAMDEM TEGUIA G. YVAN</p>
+                            <p class="email">yvankamdem237@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-icons">
+                        <i class="fa-regular fa-envelope"></i>
+                        <i class="fa-solid fa-phone"></i> 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>About us</h3>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis inventore, saepe perferendis cumque dignissimos,
+                        similique provident vel voluptatibus a, unde explicabo ab incidunt harum. Optio, vitae illo? Architecto, inventore.
+                    </div>
+                </div>
+                <div class="company-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div> 
+        <!-- Carte de visite 5 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="img/photo.JPG" class="image" alt="profil yvan" width="100"/>
+            </div>
+                <div class="profile">
+                    <div class="picture">
+                        <div class="information">
+                            <p>Ingenieur informaticien</p>
+                            <p>KAMDEM TEGUIA G. YVAN</p>
+                            <p class="email">yvankamdem237@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-icons">
+                        <i class="fa-regular fa-envelope"></i>
+                        <i class="fa-solid fa-phone"></i> 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>About us</h3>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis inventore, saepe perferendis cumque dignissimos,
+                        similique provident vel voluptatibus a, unde explicabo ab incidunt harum. Optio, vitae illo? Architecto, inventore.
+                    </div>
+                </div>
+                <div class="company-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div>
+         <!-- Carte de visite 6 -->
+         <div class="card">
+            <div class="image-wrapper">
+                <img src="img/photo.JPG" class="image" alt="profil yvan" width="100"/>
+            </div>
+                <div class="profile">
+                    <div class="picture">
+                        <div class="information">
+                            <p>Ingenieur informaticien</p>
+                            <p>KAMDEM TEGUIA G. YVAN</p>
+                            <p class="email">yvankamdem237@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-icons">
+                        <i class="fa-regular fa-envelope"></i>
+                        <i class="fa-solid fa-phone"></i> 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>About us</h3>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis inventore, saepe perferendis cumque dignissimos,
+                        similique provident vel voluptatibus a, unde explicabo ab incidunt harum. Optio, vitae illo? Architecto, inventore.
+                    </div>
+                </div>
+                <div class="company-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div>
+    </section>
+</body>
+</html>
